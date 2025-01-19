@@ -7,8 +7,8 @@ public class Main {
         while (total < 2_459_000) {
             month++;
             total += money;
+            System.out.printf("Месяц %d, сумма накоплений равна %d рублей.%n", month, total);
         }
-        System.out.printf("Месяц %d, сумма накоплений равна %d рублей.%n", month, total);
         System.out.println();
 
         //Задача 2
